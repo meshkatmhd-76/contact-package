@@ -15,20 +15,13 @@
         "psr-4": {
             "Meshkat\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Meshkat\\Contact\\ContactServiceProvider"
+            ]
+
+        }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
